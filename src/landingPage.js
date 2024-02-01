@@ -2,7 +2,7 @@ import React, {  useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { ImCross } from "react-icons/im";
 import { TiThMenu } from "react-icons/ti";
-import logo from '../images/vmovieslogo.png'
+import logo from './images/vmovieslogo.png'
 import { motion } from 'framer-motion';
 
 const LandingPage = () => {

@@ -1,8 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NotFound from './Pages/NotFound';
-import ShowDetails from './Pages/ShowDetails';
-import LandingPage from './Components/landingPage';
+import ShowDetails from './ShowDetails';
+import LandingPage from './landingPage';
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/shows/:id" element={<ShowDetails />} />
-          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </div>
